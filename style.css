@@ -1,0 +1,43 @@
+.head {
+    color: #ff6610;
+    font-size: 20px;
+}
+.name {
+    font-size: 30px;
+    color: #ff6610;
+}
+.background{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/73/6c/a4/736ca47c59beca4705862018b4d90e70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.experience{
+    color: #ff6610;
+}
+.experience a{
+    color: #ffff00;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
