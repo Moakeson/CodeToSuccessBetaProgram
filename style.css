@@ -11,33 +11,32 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.experience{
+.text{
     color: #ff6610;
 }
-.experience a{
-    color: #ffff00;
-}
-
-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-
-li {
+.nav {
     float: left;
 }
-
-li a {
+.nav a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-li a:hover {
+.nav a:hover {
     background-color: #111111;
+}
+.links{
+    color: #ffff00;
+}
+.links a{
+    color: #ffff00;
 }
