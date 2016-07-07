@@ -5,6 +5,7 @@
 .name {
     font-size: 30px;
     color: #ff6610;
+    
 }
 .background{
     background-image: url(https://s-media-cache-ak0.pinimg.com/564x/73/6c/a4/736ca47c59beca4705862018b4d90e70.jpg);
@@ -26,7 +27,7 @@
 }
 .nav a{
     display: block;
-    color: white;
+    color: orange;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
