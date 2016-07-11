@@ -1,0 +1,47 @@
+html{
+    font-family: Helvetica, Times, serif;
+}
+.head {
+    color: #ff6610;
+    font-size: 20px;
+}
+.name {
+    font-size: 30px;
+    color: #ff6610;
+    font-family: Helvetica, Times, serif;
+    
+}
+.background{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/73/6c/a4/736ca47c59beca4705862018b4d90e70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    color: #ff6610;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav {
+    float: left;
+}
+.nav a{
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #111111;
+}
+.links{
+    color: #ffff00;
+}
+.links a{
+    color: #ffff00;
+}
