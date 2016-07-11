@@ -1,0 +1,54 @@
+.explanation {
+    font-size: 50px;
+}
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+}
+span.text-content {
+  color: black;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+}
+span.text-content {
+  color: black;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  font-size: 33px;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1
+}
+
+.background{
+    background-image: url(http://krazyinthekitchen.com/wp-content/uploads/2013/06/Picnic-blanket.png);
+    background-size: cover;
+    
+}
