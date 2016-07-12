@@ -7,7 +7,7 @@
 
   .list {
       color: #3456ff;
-      font-size: 25px;
+      font-size: 20px;
       
   }
   
@@ -15,9 +15,7 @@
   background-image: url(http://wallpapershidef.com/wp-content/gallery/website-background-images-free-download/website-background-wincustomize-explore-clouds-284048.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: Impact, Charcoal, sans-serif;
 }
-input {
-    width: 350px;
-    height: 50px;
-    font-size: 32px;
-}
+
+
