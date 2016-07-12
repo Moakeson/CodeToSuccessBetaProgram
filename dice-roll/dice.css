@@ -1,0 +1,12 @@
+h1{
+    font-family: Impact, Charcoal, sans-serif;
+}
+button{
+    font-family: Impact, Charcoal, sans-serif;
+    height:100px;
+    width: 100px;
+    font-size: 75px;
+    background-color: blue;
+    color: gold;
+    border: black solid 5px;
+}
