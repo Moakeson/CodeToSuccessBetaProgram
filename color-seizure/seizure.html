@@ -1,12 +1,12 @@
-<html>
-    <head>
-        <title>Color Seizure</title>
-    </head>
-    
-    <body class = "element">
-        <h1>Get ready for a seizure!</h1>
-        <h2><input type=submit value="SEIZURE" class="seizure"></h2>
+<style>
+    @keyframes seizure {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: orange;}
+    100% {background-color: blue;}
+}
 
-        
-    </body>
-</html>
+    body {
+    animation: seizure .1s infinite;
+    }
+</style>

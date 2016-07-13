@@ -2,13 +2,21 @@
     <head>
         <title>Coin Toss</title>
         <link rel="stylesheet" href="toss.css">
-    </head>
+    
     <script>
-    var rand = Math.round(Math.random() * 2);
-    if(rand==1){
-        return true;
-    }else{
-        return false;
+   function flipCoin(){
+   var coin = document.getElementById("coin");
+   var results = document.getElementById("results");
+   var rand= Math.round(Math.random() * 2);
+   var flipped = rand;        
+   die.innHTML = rand;
+   
+    results.innerHTML = "You flipped " +flipped+ ".";
     }
     </script>
+    </head>
+    <body>
+        <div id="coin" class="coin" onclick="flipCoin()"><img src=http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png></div>
+<h2 id="results" style="clear:left;"></h2>
+    </body>
 </html>
