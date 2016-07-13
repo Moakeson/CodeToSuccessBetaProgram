@@ -2,7 +2,6 @@
 	float:left;
 	padding:10px;
 	text-align:center;
-	margin:5px;
 	font-family: Impact, Charcoal, sans-serif;
     height:100px;
     width: 100px;
@@ -20,10 +19,12 @@
     -ms-user-select: none;
     user-select: none;
     
+    
 }
 .background{
     background-image: url(http://www.rocksland.com/public/wallpapers/varie/1024x768/dadi01.jpg);
     background-size: cover;
+	
 }
 h2{
     font-family: Impact, Charcoal, sans-serif;
