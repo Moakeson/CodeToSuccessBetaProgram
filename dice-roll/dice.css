@@ -2,7 +2,7 @@ h1{
     font-family: Impact, Charcoal, sans-serif;
 }
 
-div.dice{
+.dice{
 	float:left;
 	padding:10px;
 	text-align:center;
@@ -11,7 +11,21 @@ div.dice{
     height:100px;
     width: 100px;
     font-size: 75px;
-    background-color: blue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFr1M63EFWNT7aXCHgYCjE1kS079pHs7G1xVB3llU4t_qF5uh3PA);
+    background-size: cover;
     color: gold;
     border: black solid 5px;
+    border-radius: 25px;
+    cursor: pointer; cursor: hand;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;   
+    -moz-user-select: none;  
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+.background{
+    background-image: url(http://www.rocksland.com/public/wallpapers/varie/1024x768/dadi01.jpg);
+    background-size: cover;
 }
