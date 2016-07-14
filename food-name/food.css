@@ -43,7 +43,7 @@ span.text-content {
   font-size: 33px;
 }
 
-ul.img-list li:hover span.text-content {
+.text-content:hover {
   opacity: 1
 
 }
@@ -54,6 +54,7 @@ ul.img-list li:hover span.text-content {
     
 }
 
-ul.img-list li:onClick span.text-content {
-  opacity: 1
+.text-content:active{
+  opacity: 1;
+  
 }

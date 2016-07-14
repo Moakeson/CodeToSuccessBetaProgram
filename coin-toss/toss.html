@@ -8,19 +8,20 @@
    var coin = document.getElementById("coin");
    var results = document.getElementById("results");
    var rand= Math.round(Math.random() * 2);
-   var flipped = document.getElementById(myImage).src;        
    
    if(rand==0){
-       document.getElementById(myImage).src= "http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png"
+       document.getElementById("myImage").setAttribute("src", "http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png")
+     results.innerHTML = "You flipped heads!";
+       
    }
    else{
-       if(rand==1){
-        document.getElementById(myImage).src="http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Reverse.png"   
-       }
+       
+        document.getElementById("myImage").setAttribute("src", "http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Reverse.png")   
+       results.innerHTML = "You flipped tails!";
+           
+       
     }
-    coin.innHTML = rand;
-    results.innerHTML = "You flipped " +flipped+ ".";
-    }
+}
     </script>
     </head>
     <body>
