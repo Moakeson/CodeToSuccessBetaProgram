@@ -3,29 +3,17 @@
         <title>Coin Toss</title>
         <link rel="stylesheet" href="toss.css">
     
-    <script>
-   function flipCoin(){
-   var coin = document.getElementById("coin");
-   var results = document.getElementById("results");
-   var rand= Math.round(Math.random() * 2);
+   <script type="text/javascript" src="toss.js"></script>
    
-   if(rand==0){
-       document.getElementById("myImage").setAttribute("src", "http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png")
-     results.innerHTML = "You flipped heads!";
-       
-   }
-   else{
-       
-        document.getElementById("myImage").setAttribute("src", "http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Reverse.png")   
-       results.innerHTML = "You flipped tails!";
-           
-       
-    }
-}
-    </script>
     </head>
     <body>
-        <div id="coin" class="coin" onclick="flipCoin()"><img id="myImage" src="http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png"></div>
-<h2 id="results" style="clear:left;"></h2>
+        <h1>Click the coin to toss!</h1>
+        <div class="container">
+            <div id="coin" class="coin" onclick="flipCoin()">
+                <img id="myImage" src="http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Obverse.png">
+            </div>
+            <h2 id="results" class="text" style="clear:left;"></h2>
+        </div>
+
     </body>
 </html>

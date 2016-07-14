@@ -1,3 +1,31 @@
-img{
-    background-color: #EEEEEE;
+#myimage{
+    background-color: #FFFFFF;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#results.text{
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+   
+}
+
+.coin{
+   margin-top: 15vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;   
+    -moz-user-select: none;  
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
 }

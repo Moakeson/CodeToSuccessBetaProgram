@@ -9,6 +9,12 @@
     width: 750px;
     box-shadow:  0 1px 2px #fff,  0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,.5), inset 0 1px 1px rgba(255,255,255,0.8); 
     margin: 0 auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;   
+    -moz-user-select: none;  
+    -ms-user-select: none;
+    user-select: none;
     
 }
 .background{

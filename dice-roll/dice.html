@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="dice.css">
-<script>
-function rollDice(){
-    var die = document.getElementById("die");
-    var status = document.getElementById("status");
-    var d1 = Math.floor(Math.random() * 6) + 1;
-    var diceRolled = d1;
-    die.innerHTML = d1;
-    
-    status.innerHTML = "You rolled a "+diceRolled+ "!";
-    }
-</script>
-</head>
-<body class="background">
-<div id="die" class="dice" onclick="rollDice()">?</div>
-<h2 id="status" style="clear:left;"></h2>
-</body>
+    <head>
+        <link rel="stylesheet" href="dice.css">
+        <script type="text/javascript" src="dice.js"></script>
+    </head>
+    <body class="background">
+        <h1>Click the dice block to roll!</h1>
+            <div class="container">
+            <div id="die" class="dice" onclick="rollDice()">?</div>
+        <h2 id="status" class="text" style="clear:left;"></h2>
+            </div>
+    </body>
 </html>
