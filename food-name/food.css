@@ -45,10 +45,15 @@ span.text-content {
 
 ul.img-list li:hover span.text-content {
   opacity: 1
+
 }
 
 .background{
     background-image: url(http://krazyinthekitchen.com/wp-content/uploads/2013/06/Picnic-blanket.png);
     background-size: cover;
     
+}
+
+ul.img-list li:click span.text-content {
+  opacity: 1
 }

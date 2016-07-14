@@ -8,15 +8,23 @@
    var coin = document.getElementById("coin");
    var results = document.getElementById("results");
    var rand= Math.round(Math.random() * 2);
-   var flipped = rand;        
-   die.innHTML = rand;
+   var flipped = document.getElementById(myImage).src;        
    
+   if(rand==0){
+       document.getElementById(myImage).src= "http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png"
+   }
+   else{
+       if(rand==1){
+        document.getElementById(myImage).src="http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Reverse.png"   
+       }
+    }
+    coin.innHTML = rand;
     results.innerHTML = "You flipped " +flipped+ ".";
     }
     </script>
     </head>
     <body>
-        <div id="coin" class="coin" onclick="flipCoin()"><img src=http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png></div>
+        <div id="coin" class="coin" onclick="flipCoin()"><img id="myImage" src="http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png"></div>
 <h2 id="results" style="clear:left;"></h2>
     </body>
 </html>
