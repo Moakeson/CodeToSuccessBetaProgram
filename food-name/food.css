@@ -54,6 +54,6 @@ ul.img-list li:hover span.text-content {
     
 }
 
-ul.img-list li:click span.text-content {
+ul.img-list li:onClick span.text-content {
   opacity: 1
 }
