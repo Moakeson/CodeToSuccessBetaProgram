@@ -9,12 +9,12 @@ color: #555;
 
 #login{
     position: fixed;
-width: 340px;
-height: 230px;
-top: 50%;
-left: 50%;
-margin-top: -140px;
-margin-left: -170px;
+    width: 340px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
     background: #fff;
     border-radius: 3px;
     border: 1px solid #ccc;
@@ -58,6 +58,7 @@ input[type=password] {
 input[type=checkbox] {
     margin-left: 20px;
     margin-top: 30px;
+    box-shadow
 }
 input[type=submit] {
     float: right;
@@ -94,4 +95,18 @@ input[type=text]:focus,
 input[type=password]:focus {
     border: 1px solid #a8c9e4;
     box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+}
+
+p a{
+    color: #111
+}
+
+.background{
+   background-color: #08a5c4;
+    
 }
