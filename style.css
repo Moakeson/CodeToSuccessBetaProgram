@@ -12,7 +12,7 @@ html{
     
 }
 .background{
-    background-image: url(https://s-media-cache-ak0.pinimg.com/564x/73/6c/a4/736ca47c59beca4705862018b4d90e70.jpg);
+    background-image: url(http://www.hdbloggers.net/wp-content/uploads/2016/01/Clouds-Computer-Backgrounds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,20 +24,21 @@ html{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #12a0d3;
 }
 .nav {
     float: left;
 }
 .nav a{
     display: block;
-    color: orange;
+    color: #blue;
     text-align: center;
+    font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
 }
 .nav a:hover {
-    background-color: #111111;
+    background-color: #0e7ca4;
 }
 .links{
     color: #ffff00;
