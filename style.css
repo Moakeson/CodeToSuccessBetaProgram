@@ -31,7 +31,7 @@ html{
 }
 .nav a{
     display: block;
-    color: #blue;
+    color: blue;
     text-align: center;
     font-weight: bold;
     padding: 14px 16px;
@@ -47,4 +47,6 @@ html{
     color: #ffff00;
 }
 
-   
+.contact{
+    float: right;
+}
