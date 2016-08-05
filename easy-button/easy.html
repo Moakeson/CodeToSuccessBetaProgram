@@ -2,18 +2,19 @@
     <head>
         <title>Easy Button</title>
         <link rel="stylesheet" href="easy.css">
+        <script type="text/javascript">
+       function play(){
+           var audio = document.getElementById("audio");
+           audio.play();
+        }
+        </script>
+        <audio id="audio" src="http://techdweeb.com/media/EasyNorm.mp3"></audio>
     </head>
     <body class="background">
         <h1>
          Welcome to my easy button! Enjoy!
         </h1>
-        <input type="submit" onclick="clicked(event)" value="Easy" class = "style">
+        <input type="submit" onclick="play()" value="Easy" class = "style">
     </body>
-    <script type="text/javascript">
-        
-      function clicked(e)
-{
-    if(!alert('That was easy!'))e.preventDefault();
-}
-    </script>
+    
 </html>

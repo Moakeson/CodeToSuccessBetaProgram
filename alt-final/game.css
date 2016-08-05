@@ -1,18 +1,59 @@
 a img {
-    height: 200px;
-    background-color: #DDDDDD;
+    height: 400px;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
-.ss{
+.leftbtn{
     margin-right: 20px;
+    }
+
+.rightbtn{
+    margin-left: 20px;
 }
 
-.ba{
-    margin-left: 20px;
+.arbtn{
+    background-color: blue;
+}
+
+body{
+   background-color: #4da6ff;
+}
+
+h1{
+    text-align: center;
+    border: 1px #0069cc solid;
+    box-shadow: 0 1px 2px black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #cce6ff;
+}
+
+input[type=submit]{
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px #0069cc;
+    height: 50px;
+    width: 550px;
+    font-size: 30px;
+    background-color:#cce6ff;
+}
+
+.nlnw{
+    text-align: center;
+}
+
+.gameover{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.win{
+    text-align: center;
+    font-size: 50px;
+    color: green;
 }
